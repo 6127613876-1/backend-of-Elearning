@@ -4,7 +4,7 @@ google-auth-oauthlib
 google-auth-httplib2
 requests
 python-dotenv
-langchain-google-genai
+langchain
 google-generativeai
 scikit-learn
 gunicorn
