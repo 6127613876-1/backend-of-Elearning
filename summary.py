@@ -10,7 +10,7 @@ API_KEY = os.getenv('Summary_API_KEY')
 genai.configure(api_key=API_KEY)
 
 # Initialize Gemini model (using gemini-2.0-flash for speed)
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.0-pro")
 
 # Flask app setup
 app = Flask(__name__)
