@@ -4,7 +4,7 @@ import json
 import os
 from dotenv import load_dotenv
 load_dotenv()
-API_KEY = os.getenv('API_KEY')
+API_KEY = os.getenv('Summary_API_KEY')
 
 # Configure Google Generative AI with API key
 genai.configure(api_key=API_KEY)
